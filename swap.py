@@ -1,0 +1,8 @@
+f1r=open("C:/Users/PC/Downloads/python/C97/p98/file1.txt")
+f2r=open("C:/Users/PC/Downloads/python/C97/p98/file2.txt")
+data1=f1r.read()
+data2=f2r.read()
+f1w=open("C:/Users/PC/Downloads/python/C97/p98/file1.txt","w")
+f2w=open("C:/Users/PC/Downloads/python/C97/p98/file2.txt","w")
+f1w.write(data2)
+f2w.write(data1)
